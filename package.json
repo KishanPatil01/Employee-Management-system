@@ -6,6 +6,9 @@
   "scripts": {
   "start": "node server.js",
   "test": "jest"
+  }
+  "scripts": {
+    "postinstall": "npm rebuild sqlite3 --build-from-source"
   },
 
   "dependencies": {
