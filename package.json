@@ -1,0 +1,20 @@
+{
+  "name": "employee-management-ui",
+  "version": "1.0.0",
+  "description": "Employee Management System - Improved UI",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js",
+  "test": "jest"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
